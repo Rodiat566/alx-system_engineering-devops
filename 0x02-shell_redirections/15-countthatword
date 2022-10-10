@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -t1 | head -n 10
+grep -i bin /etc/passwd | wc -l
